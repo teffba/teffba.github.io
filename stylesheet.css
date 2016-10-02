@@ -1,0 +1,109 @@
+body,html{
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background-image: url("../images/praga.jpg");
+    background-size: cover;
+    width:100%;
+    height: 100%;
+    background-position: center;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 13em 0;
+}
+
+nav {
+    background: black;
+    margin-bottom: 2em;
+}
+nav ul{ /*0 margin y padding para que se pegue la barra al header*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav h1{
+    color: white;
+    float: left;
+    padding: 1em;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 18%;  /*Ancho del Nav: 100 dividido la cantidad de botones en el nav. */
+    padding: 0.5em 0.5em;
+}
+
+nav ul li a{ /*lo que contiene las palabras, vinculo*/
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.2em 1em;
+    display: block;
+    position: relative;
+}
+
+nav ul li a:hover{
+    color: #A52A2A;
+}
+
+.holder{ /*caja contenedora*/
+    width: 960px;
+    margin: 0 auto; /*lo pone en el medio*/
+}
+.parimg1, .parimg2, .parimg3 {
+  /*  background-image: url("images/flowers.jpg"); */
+    opacity: 0.7;
+    min-height: 500px;
+    /*parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parimg1 {
+    background-image: url('../images/flowers.jpg');
+    min-height: 100%;
+}
+
+.parimg2 {
+    background-image: url('../images/ghent.jpg');
+    min-height: 100%;
+}
+
+.secabout{
+    background-color: gray;
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
+}
+
+
+p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+
+footer{
+    background: black;
+    clear: both;
+    color: white;
+    padding: 3em 0;
+    margin-top: 2em;
+}
+
+footer p{
+    font-size: 1em;
+
+}
